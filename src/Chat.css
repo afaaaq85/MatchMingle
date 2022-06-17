@@ -1,0 +1,29 @@
+.chat{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-bottom: 1px solid #f1f1f1;
+}
+.chat_image{
+    margin: 20px 20px;
+    width: 50px !important;
+    height: 50px !important;
+}
+.chat_person{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    float: left;
+}
+.chat_person>p{
+    color: gray;
+}
+.chat_person>h2{
+    color: navy;
+}
+.timestamp{
+    right: 0;
+    position: absolute;
+    margin: 20px 20px 0px 0px;
+    color: rgb(192, 192, 192);
+}

@@ -1,0 +1,58 @@
+
+.chat_screen>p{
+    text-align: center;
+    color: #d5d5d5;
+    margin: 20px;
+}
+
+.chatscreen_msg{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.chatscreen_profilepic{
+    margin-left: 10px;
+}
+.chatscreen_text{
+    margin-left: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 8px 15px ;
+}
+.chatscreen_yourmsg{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 20px;
+}
+.chatscreen_yourtext{
+    margin-left: 10px;
+    color: white;
+    background-color: #29b3cd;
+    border-radius: 20px;
+    padding: 8px 15px ;
+}
+.chatscreen_inputform{
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgray;    
+}
+.chatscreen_inputfield{
+    flex: 1;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+}
+.chatscreen_inputbutton{
+    border: none;
+    margin-right: 20px;
+    background-color: white;
+    color: #fe3d71;
+    font-weight: bolder;
+}
+.chatscreen_inputfield:focus{
+    outline: none;
+}
